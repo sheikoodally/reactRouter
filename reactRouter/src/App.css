@@ -11,6 +11,7 @@ ul {
 }
 
 li {
+  width: 25%;
   float: left;
 }
 
@@ -20,8 +21,9 @@ li a {
   text-align: center;
   padding: 0.5rem 0.5rem;
   text-decoration: none;
+  justify-content: space-around;
 }
 
-li a:hover:not(.active) {
+li :hover:not(.active) {
   background-color: #111;
 }
