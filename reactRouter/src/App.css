@@ -11,6 +11,7 @@ ul {
 }
 
 li {
+  width: 25%;
   float: left;
 }
 
